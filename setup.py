@@ -9,7 +9,7 @@ setup(
     author_email="cezar@protonmail.com",
     url="",
     packages=["pdfmagic"],
-    install_requires=["click", "PyPDF2", "tqdm"],
+    install_requires=["click", "PyPDF2", "tqdm", "pytest"],
     entry_points={
         "console_scripts": [
             "pdfmagic=pdfmagic.main:pdfmagic",
