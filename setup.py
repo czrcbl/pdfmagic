@@ -7,7 +7,7 @@ setup(
     description="PDF tools",
     author="Cézar Lemos",
     author_email="cezar@protonmail.com",
-    url="",
+    url="https://github.com/czrcbl/pdfmagic",
     packages=["pdfmagic"],
     install_requires=["click", "PyPDF2", "tqdm", "pytest"],
     entry_points={
